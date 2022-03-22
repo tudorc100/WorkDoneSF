@@ -1,0 +1,51 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=FIFOstatus
+
+[Library]
+FIFOstatus=.\FIFOstatus\FIFOstatus.lib
+
+[$LibMap$]
+FIFOstatus=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+fileopenfolder=D:\Proiect\C4UD\C4UD\src
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=fifostatus|arhistat|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/C4UD.vhd=-1
+/FIFOstatus.vhd=-1
+/D_FF.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\C4UD.vhd=VHDL Source Code
+.\src\FIFOstatus.vhd=VHDL Source Code
+.\src\D_FF.vhd=VHDL Source Code
+
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration

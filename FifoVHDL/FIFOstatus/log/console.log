@@ -1,0 +1,88 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.2 [s].
+acom -O3 -e 100 -work FIFOstatus -2002  $dsn/src/C4UD.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Proiect/FIFOstatus/src/C4UD.vhd
+# Compile Entity "C4UD"
+# Compile Architecture "ARHC4UD" of Entity "C4UD"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work FIFOstatus -2002  $dsn/src/FIFOstatus.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: D:/Proiect/FIFOstatus/src/FIFOstatus.vhd
+# Compile Entity "STATUS"
+# Compile Architecture "arhistat" of Entity "FIFOstatus"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+asim -O5 +access +r +m+FIFOstatus FIFOstatus arhistat
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.2 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 7070 kB (elbread=1280 elab2=5652 kernel=137 sdf=0)
+# KERNEL: ASDB file was created in location D:\Proiect\FIFOstatus\src\wave.asdb
+#  8:48 PM, Tuesday, June 2, 2020
+#  Simulation has been initialized
+# add wave -noreg {/FIFOstatus/ce_wr}
+# 1 signal(s) traced.
+# Waveform file 'untitled.awc' connected to 'D:/Proiect/FIFOstatus/src/wave.asdb'.
+# add wave -noreg {/FIFOstatus/clk}
+# 1 signal(s) traced.
+# add wave -noreg {/FIFOstatus/ce_rd}
+# 1 signal(s) traced.
+# add wave -noreg {/FIFOstatus/empty}
+# 1 signal(s) traced.
+# add wave -noreg {/FIFOstatus/last}
+# 1 signal(s) traced.
+# add wave -noreg {/FIFOstatus/full}
+# 1 signal(s) traced.
+run 100 ns
+# KERNEL: stopped at time: 100 ns
+run 100 ns
+# KERNEL: stopped at time: 200 ns
+run 100 ns
+# KERNEL: stopped at time: 300 ns
+run 100 ns
+# KERNEL: stopped at time: 400 ns
+run 100 ns
+# KERNEL: stopped at time: 500 ns
+run 100 ns
+# KERNEL: stopped at time: 600 ns
+run 100 ns
+# KERNEL: stopped at time: 700 ns
+run 100 ns
+# KERNEL: stopped at time: 800 ns
+run 100 ns
+# KERNEL: stopped at time: 900 ns
+run 100 ns
+# KERNEL: stopped at time: 1 us
+run 100 ns
+# KERNEL: stopped at time: 1100 ns
+run 100 ns
+# KERNEL: stopped at time: 1200 ns
+run 100 ns
+# KERNEL: stopped at time: 1300 ns
+run 100 ns
+# KERNEL: stopped at time: 1400 ns
+run 100 ns
+# KERNEL: stopped at time: 1500 ns
+run 100 ns
+# KERNEL: stopped at time: 1600 ns
+run 100 ns
+# KERNEL: stopped at time: 1700 ns
+# Waveform file 'D:/Proiect/FIFOstatus/src/untitled.awc' connected to 'D:/Proiect/FIFOstatus/src/untitled.asdb'.
+# Adding file D:\Proiect\FIFOstatus\src\untitled.asdb ... Done
+# Adding file D:\Proiect\FIFOstatus\src\untitled.awc ... Done

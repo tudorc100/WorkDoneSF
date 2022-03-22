@@ -1,0 +1,36 @@
+Active-HDL 11.1.262.7351 2020-06-02 20:48:09
+
+Elaboration top modules:
+Architecture                  arhistat(FIFOstatus)
+
+
+----------------------------------------------------------------------------------------------
+Entity     | Architecture | Library    | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------
+FIFOstatus | arhistat     | fifostatus |      | 11.1.262.7351 (Windows) | -O3
+C4UD       | ARHC4UD      | fifostatus |      | 11.1.262.7351 (Windows) | -O3
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+VHDL Package              | Library    | Info | Compiler Version        | Compilation Options
+----------------------------------------------------------------------------------------------
+standard                  | std        |      |                         | <unavailable>
+TEXTIO                    | std        |      |                         | <unavailable>
+std_logic_1164            | ieee       |      |                         | <unavailable>
+std_logic_arith           | ieee       |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED        | ieee       |      |                         | <unavailable>
+----------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------
+Library                   | Comment
+----------------------------------------------------------------------------------------------
+fifostatus                | None
+ieee                      | Standard IEEE packages library
+std                       | Standard VHDL library
+----------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O5 +access +r +m+FIFOstatus FIFOstatus arhistat
+
+
+The performance of simulation is reduced. Version Student Edition

@@ -1,0 +1,1 @@
+-w -erf c:/My_Designs/FIFOcontrol/FIFOcontrol/compile/FIFOcontrol.erf -d c:/My_Designs/FIFOcontrol/FIFOcontrol/compile -s c:/My_Designs/FIFOcontrol/library.cfg -j c:/My_Designs/FIFOcontrol/FIFOcontrol/projlib.cfg -work FIFOcontrol -reorder -O3 -e 100 -work FIFOcontrol -2002 c:/My_Designs/FIFOcontrol/FIFOcontrol/src/FIFOcontrol.vhd 

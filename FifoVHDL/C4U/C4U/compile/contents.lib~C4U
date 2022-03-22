@@ -1,0 +1,4 @@
+3
+~E 1 "../src/C4U.vhd" 5 C4U
+~A 1 "../src/C4U.vhd" 10 arhi
+~A 1 "../src/C4U.vhd" 10 ARHNUM

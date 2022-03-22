@@ -1,0 +1,5 @@
+5
+~E 1 "../src/C4U.vhd" 27 C4U
+~A 1 "../src/C4U.vhd" 32 C4U
+~E 1 "../src/C4UD.vhd" 31 C4UD
+~A 1 "../src/C4UD.vhd" 36 ARHC4UD

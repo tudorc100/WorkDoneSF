@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/Proiect/C4U/C4U/src/C4U.vhd" 
+MESSAGE "Compile Entity "C4U"" 
+MESSAGE "Compile Architecture "arhi" of Entity "C4U"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]" 

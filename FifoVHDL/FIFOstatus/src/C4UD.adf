@@ -1,0 +1,38 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=C4UD
+[Library]
+C4UD=.\C4UD\C4UD.lib
+[$LibMap$]
+C4UD=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/C4U.vhd=-1
+/C4UD.vhd=-1
+/C4UD.asdb=-1
+/C4UD.awc=-1
+[Files.Data]
+.\src\C4U.vhd=VHDL Source Code
+.\src\C4UD.vhd=VHDL Source Code
+.\src\C4UD.asdb=Accelerated Waveform File
+.\src\C4UD.awc=Accelerated Waveform Configuration
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=c4ud|ARHC4UD|0 
+ShowHide=ShowTopLevel
+Selected=

@@ -1,0 +1,1 @@
+-w -erf D:/Proiect/C4UD/C4UD/compile/C4UD.erf -d D:/Proiect/C4UD/C4UD/compile -s D:/Proiect/C4UD/library.cfg -j D:/Proiect/C4UD/C4UD/projlib.cfg -work C4UD -O3 -e 100 -work C4UD -2002 D:/Proiect/C4UD/C4UD/src/C4UD.vhd 

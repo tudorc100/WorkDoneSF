@@ -1,0 +1,15 @@
+24
+~E 1 "../src/AND_2.vhd" 6 AND2
+~A 1 "../src/AND_2.vhd" 11 behe
+~E 1 "../src/AND3.vhd" 6 AND3
+~E 1 "../src/AND4.vhd" 6 AND4
+~E 1 "../src/C4UD.vhd" 31 C4UD
+~A 1 "../src/C4UD.vhd" 36 ARHC4UD
+~E 1 "../src/D_FF.vhd" 6 D_FF
+~A 1 "../src/D_FF.vhd" 11 behi
+~E 1 "../src/FIFOstatus.vhd" 5 FIFOstatus
+~A 1 "../src/FIFOstatus.vhd" 9 arhistat
+~E 1 "../src/OR2.vhd" 4 OR2
+~E 1 "../src/OR3.vhd" 4 OR3
+~E 1 "../src/FIFOstatus.vhd" 4 STATUS
+~A 1 "../src/FIFOstatus.vhd" 9 ARHSTATUS

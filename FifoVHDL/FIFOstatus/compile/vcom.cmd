@@ -1,0 +1,1 @@
+-w -erf D:/Proiect/FIFOstatus/compile/FIFOstatus.erf -d D:/Proiect/FIFOstatus/compile -s D:/Proiect/FIFOstatus/library.cfg -j D:/Proiect/FIFOstatus/projlib.cfg -work FIFOstatus -O3 -e 100 -work FIFOstatus -2002 D:/Proiect/FIFOstatus/src/FIFOstatus.vhd 

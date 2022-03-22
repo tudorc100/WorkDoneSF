@@ -1,0 +1,25 @@
+V 000045 55 763           1590224705649 arhi
+(_unit VHDL(fifocontrol 0 5(arhi 0 10))
+	(_version ve4)
+	(_time 1590224705650 2020.05.23 12:05:05)
+	(_source(\../src/FIFOcontrol.vhd\))
+	(_parameters tan)
+	(_code 77277776792025612071642d707122707370757121)
+	(_ent
+		(_time 1590224705645)
+	)
+	(_object
+		(_port(_int POP -1 0 6(_ent(_in))))
+		(_port(_int PUSH -1 0 6(_ent(_in))))
+		(_port(_int EMPTY -1 0 6(_ent(_in))))
+		(_port(_int FULL -1 0 6(_ent(_in))))
+		(_port(_int CE_WR -1 0 7(_ent(_out))))
+		(_port(_int CE_RD -1 0 7(_ent(_out))))
+		(_prcs
+			(line__12(_arch 0 0 12(_prcs(_simple)(_trgt(4)(5))(_sens(0)(1)(2)(3)))))
+		)
+		(_type(_ext ~extieee.std_logic_1164.STD_LOGIC(0 STD_LOGIC)))
+	)
+	(_use(ieee(std_logic_1164))(std(standard))(ieee(STD_LOGIC_UNSIGNED)))
+	(_model . arhi 1 -1)
+)

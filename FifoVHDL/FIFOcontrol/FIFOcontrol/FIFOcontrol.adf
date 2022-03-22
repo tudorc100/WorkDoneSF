@@ -1,0 +1,72 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=FIFOcontrol
+
+[Library]
+FIFOcontrol=.\FIFOcontrol\FIFOcontrol.lib
+
+[$LibMap$]
+FIFOcontrol=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+
+[IMPLEMENTATION]
+UCF=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation=fifocontrol|arhi|0   
+ShowHide=ShowTopLevel
+Selected=
+
+[Folders]
+Name0=Event Lists
+Directory0=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension0=lst
+Name1=Logs
+Directory1=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension1=log;htm;xml;txt
+Name2=Waveforms
+Directory2=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension2=asdb;awc;asdbc;asdbe
+Name3=Makefiles
+Directory3=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension3=mak
+Name4=Memory
+Directory4=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension5=dll
+Name6=PDF
+Directory6=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension6=pdf
+Name7=HTML
+Directory7=D:\Proiect\FIFOcontrol\FIFOcontrol\
+Extension7=htm;html
+
+[Files]
+/FIFOcontrol.vhd=-1
+/untitled.asdb=-1
+/untitled.awc=-1
+
+[Files.Data]
+.\src\FIFOcontrol.vhd=VHDL Source Code
+.\src\untitled.asdb=Accelerated Waveform File
+.\src\untitled.awc=Accelerated Waveform Configuration
+

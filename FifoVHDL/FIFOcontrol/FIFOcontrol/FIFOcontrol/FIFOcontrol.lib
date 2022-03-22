@@ -1,0 +1,24 @@
+timestamp=1590224705745
+
+[~A]
+ModifyID=1
+Version=74
+
+[~MFT]
+0=7|0FIFOcontrol.mgf|1222|0
+1=1|1FIFOcontrol.mgf|0|0
+3=1|3FIFOcontrol.mgf|0|0
+
+[fifocontrol]
+A/arhi=21|../src/FIFOcontrol.vhd|10|1*0
+BinI32/arhi=3*0
+I=0*588
+I/arhi=0*1222
+M=11|0|ve4|1590224705644|../src/FIFOcontrol.vhd|0*214*0xc1e8b81d3b79a74c715c7bb7e11034eeacc4394c|0*501*0x23b75c12e3e89f2ef000564498faa8c2
+M/arhi=21|0|ve4|1590224705648|../src/FIFOcontrol.vhd|0*874*0x2f18e1386a08d916c02f89c8bd2628bf88b1cc71|0*1127*0x20116f55b147878295aeff36dce7fc50
+R=../src/FIFOcontrol.vhd|5
+Version=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|c23487a92f37342f17588ae4cebd388f84f969817b939c583dc05c48e1f15492dd59edb10492f90cffe409dcba9e354a
+Version/arhi=11.1.262.7351 (Windows)|00000003789cd3f5370600015b00b0|2181f73108ce5eac691f484f8b4dc8a62cc15affc2e874d1e610fb7a5db1dddb
+
+[~U]
+fifocontrol=FIFOcontrol 11|0*0|

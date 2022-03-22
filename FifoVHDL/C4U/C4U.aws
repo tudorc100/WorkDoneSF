@@ -1,0 +1,12 @@
+[Version]
+Version=11.1
+[Designs]
+c4u=.\C4U\C4U.adf
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=
+[Expand]
+c4u=1

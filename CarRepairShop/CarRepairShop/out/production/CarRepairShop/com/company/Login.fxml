@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="608.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Login">
+   <children>
+      <TextField fx:id="nrtel" layoutX="430.0" layoutY="121.0" prefHeight="40.0" prefWidth="190.0" />
+      <TextField fx:id="placuta" layoutX="430.0" layoutY="42.0" prefHeight="40.0" prefWidth="190.0" />
+      <Button fx:id="btnintrodu" layoutX="645.0" layoutY="112.0" mnemonicParsing="false" onAction="#introduce" prefHeight="40.0" prefWidth="94.0" text="Introdu" />
+      <Label fx:id="lblprint" layoutX="14.0" layoutY="12.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblerr" layoutX="428.0" layoutY="243.0" prefHeight="18.0" prefWidth="321.0" text="Message Box" textFill="RED" />
+      <TextField fx:id="buget" layoutX="430.0" layoutY="190.0" prefHeight="40.0" prefWidth="190.0" />
+      <Text layoutX="430.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr. tel. proprietar:" wrappingWidth="104.53668212890625" />
+      <Text layoutX="430.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr. Înmatriculare:" wrappingWidth="169.33673095703125" />
+      <Text layoutX="428.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Buget proprietar:" wrappingWidth="127.7366943359375" />
+      <Button fx:id="btnstatus" layoutX="14.0" layoutY="446.0" mnemonicParsing="false" onAction="#aratasts" prefHeight="40.0" prefWidth="106.0" text="Arată statut" />
+      <Label fx:id="lblprint1" layoutX="14.0" layoutY="42.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint2" layoutX="14.0" layoutY="69.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint3" layoutX="14.0" layoutY="99.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint4" layoutX="14.0" layoutY="128.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint5" layoutX="14.0" layoutY="160.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint6" layoutX="14.0" layoutY="190.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint7" layoutX="14.0" layoutY="217.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint8" layoutX="14.0" layoutY="247.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint9" layoutX="14.0" layoutY="273.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint10" layoutX="14.0" layoutY="299.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprint11" layoutX="14.0" layoutY="325.0" prefHeight="26.0" prefWidth="399.0" />
+      <Label fx:id="lblprintb" layoutX="14.0" layoutY="377.0" prefHeight="40.0" prefWidth="283.0" />
+      <Text layoutX="106.0" layoutY="16.0" strokeType="OUTSIDE" strokeWidth="0.0" text="STATUT:" wrappingWidth="57.5999755859375" />
+      <TextField fx:id="placutao" layoutX="430.0" layoutY="308.0" prefHeight="33.0" prefWidth="190.0" />
+      <Text layoutX="428.0" layoutY="304.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr. Înmatriculare:" wrappingWidth="104.53668212890602" />
+      <Button fx:id="btnpay" layoutX="632.0" layoutY="304.0" mnemonicParsing="false" onAction="#plateste" prefHeight="34.0" prefWidth="137.0" text="Plătește&amp;Scoate" />
+      <TextField fx:id="placutad" layoutX="430.0" layoutY="377.0" prefHeight="34.0" prefWidth="190.0" />
+      <Text layoutX="429.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr. Înmatriculare:" wrappingWidth="106.39999999999998" />
+      <Button fx:id="btndiag" layoutX="632.0" layoutY="374.0" mnemonicParsing="false" onAction="#diagnoza" prefHeight="34.0" prefWidth="128.0" text="Diagnostichează" />
+      <TextField fx:id="placutar" layoutX="430.0" layoutY="446.0" prefHeight="34.0" prefWidth="190.0" />
+      <Text layoutX="430.0" layoutY="442.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr. Înmatriculare:" wrappingWidth="104.53668212890602" />
+      <Button fx:id="btnrep" layoutX="632.0" layoutY="445.0" mnemonicParsing="false" onAction="#reparatie" prefHeight="34.0" prefWidth="128.0" text="Repară" />
+      <Button fx:id="curata" layoutX="14.0" layoutY="512.0" mnemonicParsing="false" onAction="#garageToYard" prefHeight="34.0" prefWidth="106.0" text="Curăță garaj" />
+      <Button fx:id="curtegaraj" layoutX="14.0" layoutY="566.0" mnemonicParsing="false" onAction="#yardToGarage" prefHeight="34.0" prefWidth="106.0" text="Curte-&gt;Garaj" />
+      <TextField fx:id="nrtelp" layoutX="428.0" layoutY="512.0" prefHeight="34.0" prefWidth="190.0" />
+      <Text layoutX="429.0" layoutY="508.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nr.Tel.Proprietar:" wrappingWidth="137.5999999999999" />
+      <Button fx:id="plusb" layoutX="632.0" layoutY="509.0" mnemonicParsing="false" onAction="#plusbuget" prefHeight="34.0" prefWidth="128.0" text="Am bani de reparație!">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="ok" layoutX="675.0" layoutY="248.0" mnemonicParsing="false" onAction="#ok" text="OK!" />
+      <Label fx:id="masinicurte" layoutX="156.0" layoutY="478.0" prefHeight="34.0" prefWidth="178.0" />
+      <Label fx:id="reparatecurte" layoutX="148.0" layoutY="566.0" prefHeight="26.0" prefWidth="695.0" />
+      <Text layoutX="156.0" layoutY="559.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reparate din curte:" wrappingWidth="115.2000030517579" />
+   </children>
+</AnchorPane>

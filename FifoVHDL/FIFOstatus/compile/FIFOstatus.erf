@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/Proiect/FIFOstatus/src/FIFOstatus.vhd" 
+MESSAGE "Compile Entity "STATUS"" 
+MESSAGE "Compile Architecture "arhistat" of Entity "FIFOstatus"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]" 

@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: D:/Proiect/C4UD/C4UD/src/C4UD.vhd" 
+MESSAGE "Compile Entity "C4UD"" 
+MESSAGE "Compile Architecture "ARHC4UD" of Entity "C4UD"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]" 
